@@ -1,0 +1,36 @@
+header {
+  background: $bd-white;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #e2e2e2;
+
+  .header-details {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 1rem;
+
+    h1 {
+      color: $primary-color;
+      font-size: 1.5rem;
+      font-weight: 300;
+    }
+    .btn{
+        width:100%;
+        padding: 0.5rem;
+        width: 150px;
+        border: 1px solid $primary-color;
+        height: 50px;
+        background: transparent;
+        color: $primary-color;
+        cursor: pointer;
+
+        &:hover{
+            background: $primary-color;
+            color: $bg-white;
+        }
+    }
+  }
+}

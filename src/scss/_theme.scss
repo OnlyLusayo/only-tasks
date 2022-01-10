@@ -1,0 +1,18 @@
+$primary-color: #000000;
+$bd-white: #ffffff;
+$bg-white: #fefefe;
+
+body{
+    background: $bg-white;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
