@@ -1,0 +1,24 @@
+.task-list {
+  margin-top: 5rem;
+  width: 100%;
+
+  .task-title {
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .task-preview {
+    background: $card;
+    margin-top: 1rem;
+    padding: 0.5rem;
+
+    span {
+      margin: 1rem 0;
+      color: $text-alt-color;
+    }
+
+    &:hover {
+      box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    }
+  }
+}

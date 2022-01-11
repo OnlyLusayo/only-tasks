@@ -1,7 +1,6 @@
 header {
-  background: $bd-white;
+  background: $primary-color;
   height: 80px;
-  position: fixed;
   width: 100%;
   padding: 1rem 2rem;
   border-bottom: 1px solid #e2e2e2;
@@ -13,7 +12,7 @@ header {
       padding-bottom: 1rem;
 
     h1 {
-      color: $primary-color;
+      color: $bg-white;
       font-size: 1.5rem;
       font-weight: 300;
     }
@@ -21,15 +20,15 @@ header {
         width:100%;
         padding: 0.5rem;
         width: 150px;
-        border: 1px solid $primary-color;
+        border: 1px solid $bg-white;
         height: 50px;
         background: transparent;
-        color: $primary-color;
+        color: $bg-white;
         cursor: pointer;
 
         &:hover{
-            background: $primary-color;
-            color: $bg-white;
+            background: $bg-white;
+            color: $primary-color;
         }
     }
   }
